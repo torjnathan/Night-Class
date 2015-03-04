@@ -1,6 +1,8 @@
 
 __author__ = 'Nathan'
 
+import random
+
 class Warrior(object):
     """
     attributes:
@@ -50,6 +52,7 @@ class Dragon(object):
 
 def armor_room():
     print "This room has plenty of shields in it.  I recommend you take up a shield...like, NOW!."
+    print "-" * 100
     print "Do you choose to take up a shield?"
 
     armor = raw_input("Yes, No: ")
@@ -78,6 +81,7 @@ def weapon_room():
             # dragon.attack()
             done("chaaarrrgggeee...")
         elif choice == "no":
+            print "-" * 100
             print "Watch out he's coming at you..do you have armor for protection?"
             dragon.weapon = "fire breath"
             print "Dragon is breathing " + dragon.weapon
