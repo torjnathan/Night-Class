@@ -1,8 +1,11 @@
 
 __author__ = 'Nathan'
 
+<<<<<<< HEAD
 import random
 
+=======
+>>>>>>> 754486c937f9a848c7f775fd633ce5b91ade3ab3
 class Warrior(object):
     """
     attributes:
